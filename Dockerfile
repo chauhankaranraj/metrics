@@ -17,7 +17,7 @@ USER ${UID}:${GID}
 WORKDIR /home/${USER}
 
 # Get metrics project files
-RUN git clone https://github.com/open-services-group/metrics.git
+RUN git clone --branch container-img-def https://github.com/chauhankaranraj/metrics.git
 WORKDIR metrics
 
 # Install dependencies - why can we not do this as nonroot?
