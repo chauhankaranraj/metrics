@@ -18,6 +18,9 @@ pandas = "*"
 pyarrow = "*"
 srcopsmetrics = "*"
 matplotlib = "*"
+papermill = "*"
+nbconvert = "*"
+nbformat = "*"
 
 [requires]
 python_version = "3.8"
